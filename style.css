@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,300;0,400;0,900;1,400&display=swap");
-*{
+* {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -82,6 +82,7 @@ button {
 	width: 100px;
 	padding: 8px 16px;
 	border-radius: 8px;
+	cursor: pointer;
 }
 
 .card-header {
@@ -112,6 +113,7 @@ button {
 	padding: 0;
 	width: 150px;
 	height: 200px;
+	gap: 8px;
 	/* border: 1px solid black; */
 }
 
@@ -124,6 +126,7 @@ button {
 
 .card > p {
 	text-align: center;
+	font-size: 14px;
 	/* border: 1px solid red; */
 }
 
@@ -171,9 +174,8 @@ button {
 	width: 900px;
 	height: 100px;
 	border-radius: 8px;
-	background-color: #374785;
+	background-color: #f76c6c;
 	padding: 32px 100px;
-	
 }
 
 .signup > .left {
@@ -194,4 +196,18 @@ button {
 .left > p {
 	padding: 0;
 	margin: 0;
+}
+
+.right > button {
+	border: 1px solid white;
+	color: white;
+}
+
+footer {
+	display: flex;
+	color: white;
+	height: 75px;
+	background-color: #374785;
+	justify-content: center;
+	align-items: center;
 }
