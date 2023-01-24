@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,300;0,400;0,900;1,400&display=swap");
-
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 body {
 	font-family: Roboto, Arial, Helvetica, sans-serif;
 	/* height: 100vh; */
@@ -64,6 +68,14 @@ a {
 	height: auto;
 	flex: 1 1 400px;
 }
+
+.companydescription > .left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 10px;
+}
+
 button {
 	background-color: #f76c6c;
 	border: #f76c6c;
@@ -142,4 +154,44 @@ button {
 	align-self: flex-end;
 	margin: 0;
 	padding: 0;
+}
+
+.signup-container {
+	display: flex;
+	height: 200px;
+	border-radius: 10px;
+	justify-content: center;
+	align-items: center;
+}
+.signup {
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 900px;
+	height: 100px;
+	border-radius: 8px;
+	background-color: #374785;
+	padding: 32px 100px;
+	
+}
+
+.signup > .left {
+	/* border: 1px solid white; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+}
+
+.left > h2 {
+	font-weight: 300;
+	padding: 0;
+	margin: 0 0 4px 0;
+}
+
+.left > p {
+	padding: 0;
+	margin: 0;
 }
